@@ -20,7 +20,7 @@ login_manager.login_view='login'
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-
+# hello
 
 # app.config['SQLALCHEMY_DATABASE_URL']='mysql://username:password@localhost/databas_table_name'
 app.config['SQLALCHEMY_DATABASE_URI']='mysql://root:@localhost/students'
